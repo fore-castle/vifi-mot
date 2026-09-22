@@ -1,0 +1,54 @@
+{
+  "scene1": {
+    "n_points": 53818,
+    "ap_estimated_camera_frame": {
+      "X": -0.48984963579272567,
+      "Y": -1.5839771239056215,
+      "Z": 1.9873878881576659
+    },
+    "rms_residual_m": 0.6276308869247172,
+    "median_abs_residual_m": 0.3309928794060668,
+    "p25_residual": 0.14302348339569515,
+    "p75_residual": 0.6011339485096988,
+    "optimization_success": true
+  },
+  "scene2": {
+    "n_points": 85852,
+    "ap_estimated_camera_frame": {
+      "X": 0.20533957574102338,
+      "Y": -1.1956747271974326,
+      "Z": 2.433494606244375
+    },
+    "rms_residual_m": 1.1244850074177433,
+    "median_abs_residual_m": 0.40568557539710226,
+    "p25_residual": 0.1936399047108922,
+    "p75_residual": 0.7270770921874014,
+    "optimization_success": true
+  },
+  "scene3": {
+    "n_points": 90719,
+    "ap_estimated_camera_frame": {
+      "X": 0.5529445342214616,
+      "Y": -1.6180939465345512,
+      "Z": 1.0658119459712079
+    },
+    "rms_residual_m": 2.3922124368739093,
+    "median_abs_residual_m": 0.8078979989351915,
+    "p25_residual": 0.40143467568002,
+    "p75_residual": 1.3924319388602269,
+    "optimization_success": true
+  },
+  "scene4": {
+    "n_points": 75844,
+    "ap_estimated_camera_frame": {
+      "X": 0.10301377502893032,
+      "Y": -0.9851344311217457,
+      "Z": 1.6275760874176193
+    },
+    "rms_residual_m": 1.3361762930516803,
+    "median_abs_residual_m": 0.7405826747149091,
+    "p25_residual": 0.36773288577715757,
+    "p75_residual": 1.247616726646532,
+    "optimization_success": true
+  }
+}

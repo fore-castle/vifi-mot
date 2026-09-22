@@ -1,0 +1,59 @@
+{
+  "description": "Phase 6 Feature Extension: IMU + RSSI for FTM denoising",
+  "test_fold": "scene4",
+  "model": "CausalDilatedCNN",
+  "correlation_analysis": {
+    "IMU_accel_mag_vs_FTM_noise": {
+      "pearson_r": 0.0003,
+      "verdict": "near zero"
+    },
+    "IMU_gyro_mag_vs_FTM_noise": {
+      "pearson_r": 0.009,
+      "verdict": "negligible"
+    },
+    "IMU_mag_mag_vs_FTM_noise": {
+      "pearson_r": 0.059,
+      "verdict": "very weak"
+    },
+    "RSSI_vs_FTM_noise": {
+      "pearson_r": -0.039,
+      "verdict": "very weak"
+    },
+    "FTM_std_vs_FTM_noise": {
+      "pearson_r": 0.131,
+      "verdict": "weak (already in use)"
+    }
+  },
+  "denoising_results": {
+    "2feat_baseline": {
+      "features": "FTM_m + FTM_std_m",
+      "n_features": 2,
+      "hidden_dim": 32,
+      "mae_m": 0.667,
+      "raw_mae_m": 1.397,
+      "equiv_alpha": 0.523,
+      "reduction_pct": 52.3
+    },
+    "8feat_imu": {
+      "features": "FTM_m + FTM_std_m + accel(3) + gyro(3)",
+      "n_features": 8,
+      "hidden_dim": 32,
+      "mae_m": 0.691,
+      "raw_mae_m": 1.397,
+      "equiv_alpha": 0.505,
+      "reduction_pct": 50.5,
+      "delta_vs_baseline": -0.017
+    },
+    "8feat_imu_h48": {
+      "features": "FTM_m + FTM_std_m + accel(3) + gyro(3)",
+      "n_features": 8,
+      "hidden_dim": 48,
+      "mae_m": 0.681,
+      "raw_mae_m": 1.397,
+      "equiv_alpha": 0.513,
+      "reduction_pct": 51.3,
+      "delta_vs_baseline": -0.01
+    }
+  },
+  "conclusion": "IMU and RSSI features have near-zero correlation with FTM noise and DO NOT improve denoising performance. Adding IMU features degrades equiv_alpha by 0.010-0.017. FTM noise is dominated by environmental multipath, not phone motion. Further denoising improvement requires architectural changes or different approach, not more input features."
+}

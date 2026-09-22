@@ -1,0 +1,130 @@
+{
+  "description": "Phase 6C: MOT integration with learned FTM denoiser",
+  "baseline_raw": {
+    "sigma": 1.5,
+    "wifi_weight": 0.1,
+    "avg_idf1": 80.36,
+    "avg_idsw": 791,
+    "per_scene": {
+      "scene1": {
+        "idf1": 83.73,
+        "idsw": 436
+      },
+      "scene2": {
+        "idf1": 81.6,
+        "idsw": 679
+      },
+      "scene3": {
+        "idf1": 75.29,
+        "idsw": 1258
+      },
+      "scene4": {
+        "idf1": 80.84,
+        "idsw": 793
+      }
+    }
+  },
+  "sigma_1.5_denoised": {
+    "description": "Same sigma as raw baseline \u2014 conservative comparison",
+    "causal_cnn": {
+      "avg_idf1": 81.32,
+      "delta": 0.96,
+      "avg_idsw": 587,
+      "per_scene": {
+        "scene1": 83.13,
+        "scene2": 86.49,
+        "scene3": 74.81,
+        "scene4": 80.83
+      }
+    },
+    "causal_lstm": {
+      "avg_idf1": 81.39,
+      "delta": 1.03,
+      "avg_idsw": 591,
+      "per_scene": {
+        "scene1": 82.83,
+        "scene2": 85.13,
+        "scene3": 78.27,
+        "scene4": 79.32
+      }
+    },
+    "bilstm": {
+      "avg_idf1": 80.63,
+      "delta": 0.27,
+      "avg_idsw": 617,
+      "per_scene": {
+        "scene1": 84.6,
+        "scene2": 82.22,
+        "scene3": 74.44,
+        "scene4": 81.27
+      }
+    }
+  },
+  "sigma_1.3_denoised": {
+    "description": "Tighter sigma exploits cleaner signal \u2014 best overall",
+    "causal_cnn": {
+      "avg_idf1": 83.17,
+      "delta": 2.81,
+      "avg_idsw": 629,
+      "per_scene": {
+        "scene1": 86.97,
+        "scene2": 84.93,
+        "scene3": 76.95,
+        "scene4": 83.83
+      }
+    },
+    "causal_lstm": {
+      "avg_idf1": 82.71,
+      "delta": 2.35,
+      "avg_idsw": 642,
+      "per_scene": {
+        "scene1": 87.31,
+        "scene2": 85.13,
+        "scene3": 75.99,
+        "scene4": 82.4
+      }
+    },
+    "bilstm": {
+      "avg_idf1": 81.63,
+      "delta": 1.27,
+      "avg_idsw": 683,
+      "per_scene": {
+        "scene1": 86.66,
+        "scene2": 84.08,
+        "scene3": 71.45,
+        "scene4": 84.32
+      }
+    }
+  },
+  "sigma_sweep_scene4_causal_cnn": {
+    "description": "Demonstrating denoising enables tighter sigma",
+    "1.5": {
+      "raw": 80.84,
+      "denoised": 80.83,
+      "delta": -0.01
+    },
+    "1.0": {
+      "raw": 63.78,
+      "denoised": 82.16,
+      "delta": 18.39
+    },
+    "0.8": {
+      "raw": 51.87,
+      "denoised": 80.88,
+      "delta": 29.02
+    },
+    "0.5": {
+      "raw": 44.68,
+      "denoised": 75.68,
+      "delta": 31.0
+    }
+  },
+  "best_config": {
+    "model": "causal_cnn",
+    "sigma": 1.3,
+    "wifi_weight": 0.1,
+    "avg_idf1": 83.17,
+    "delta_vs_raw": 2.81,
+    "delta_vs_phase5": 2.8100000000000023
+  }
+}

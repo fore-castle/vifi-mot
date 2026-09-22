@@ -1,0 +1,578 @@
+[
+  {
+    "scene": "scene1",
+    "sequences": 16,
+    "total_idsw_estimated": 46,
+    "occlusion_gap": 0,
+    "close_swap": 46,
+    "bridgeable_gap": 0,
+    "per_seq": [
+      {
+        "sequence": "outdoor-scene1-20211004_142306",
+        "n_tracks": 41,
+        "gap_idsw": 0,
+        "swap_idsw": 4,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_142757",
+        "n_tracks": 35,
+        "gap_idsw": 0,
+        "swap_idsw": 8,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_143157",
+        "n_tracks": 38,
+        "gap_idsw": 0,
+        "swap_idsw": 8,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_143730",
+        "n_tracks": 35,
+        "gap_idsw": 0,
+        "swap_idsw": 6,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_144125",
+        "n_tracks": 38,
+        "gap_idsw": 0,
+        "swap_idsw": 2,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_144536",
+        "n_tracks": 38,
+        "gap_idsw": 0,
+        "swap_idsw": 6,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_144938",
+        "n_tracks": 30,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_145341",
+        "n_tracks": 31,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_145735",
+        "n_tracks": 17,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_150217",
+        "n_tracks": 12,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_150558",
+        "n_tracks": 24,
+        "gap_idsw": 0,
+        "swap_idsw": 2,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_151020",
+        "n_tracks": 22,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_151404",
+        "n_tracks": 13,
+        "gap_idsw": 0,
+        "swap_idsw": 2,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_152433",
+        "n_tracks": 22,
+        "gap_idsw": 0,
+        "swap_idsw": 4,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_152828",
+        "n_tracks": 18,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene1-20211004_153212",
+        "n_tracks": 27,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      }
+    ]
+  },
+  {
+    "scene": "scene2",
+    "sequences": 18,
+    "total_idsw_estimated": 7,
+    "occlusion_gap": 0,
+    "close_swap": 7,
+    "bridgeable_gap": 0,
+    "per_seq": [
+      {
+        "sequence": "outdoor-scene2-20211006_141820",
+        "n_tracks": 30,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_142225",
+        "n_tracks": 23,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_142625",
+        "n_tracks": 33,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_143020",
+        "n_tracks": 24,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_143503",
+        "n_tracks": 28,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_144053",
+        "n_tracks": 28,
+        "gap_idsw": 0,
+        "swap_idsw": 2,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_144439",
+        "n_tracks": 30,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_144842",
+        "n_tracks": 29,
+        "gap_idsw": 0,
+        "swap_idsw": 2,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_145531",
+        "n_tracks": 33,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_150312",
+        "n_tracks": 19,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_150827",
+        "n_tracks": 20,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_151218",
+        "n_tracks": 22,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_151607",
+        "n_tracks": 22,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_152208",
+        "n_tracks": 22,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_152623",
+        "n_tracks": 27,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_153008",
+        "n_tracks": 16,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_153440",
+        "n_tracks": 25,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene2-20211006_154225",
+        "n_tracks": 16,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      }
+    ]
+  },
+  {
+    "scene": "scene3",
+    "sequences": 18,
+    "total_idsw_estimated": 17,
+    "occlusion_gap": 0,
+    "close_swap": 17,
+    "bridgeable_gap": 0,
+    "per_seq": [
+      {
+        "sequence": "outdoor-scene3-20211007_102724",
+        "n_tracks": 38,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_103114",
+        "n_tracks": 35,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_103551",
+        "n_tracks": 34,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_104004",
+        "n_tracks": 45,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_104356",
+        "n_tracks": 53,
+        "gap_idsw": 0,
+        "swap_idsw": 2,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_104758",
+        "n_tracks": 46,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_105139",
+        "n_tracks": 35,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_105530",
+        "n_tracks": 27,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_105924",
+        "n_tracks": 33,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_110306",
+        "n_tracks": 21,
+        "gap_idsw": 0,
+        "swap_idsw": 3,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_110650",
+        "n_tracks": 20,
+        "gap_idsw": 0,
+        "swap_idsw": 2,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_111044",
+        "n_tracks": 32,
+        "gap_idsw": 0,
+        "swap_idsw": 2,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_111436",
+        "n_tracks": 20,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_111830",
+        "n_tracks": 20,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_112218",
+        "n_tracks": 18,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_113104",
+        "n_tracks": 22,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_113544",
+        "n_tracks": 25,
+        "gap_idsw": 0,
+        "swap_idsw": 3,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene3-20211007_114709",
+        "n_tracks": 23,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      }
+    ]
+  },
+  {
+    "scene": "scene4",
+    "sequences": 15,
+    "total_idsw_estimated": 23,
+    "occlusion_gap": 0,
+    "close_swap": 23,
+    "bridgeable_gap": 0,
+    "per_seq": [
+      {
+        "sequence": "outdoor-scene4-20211007_133915",
+        "n_tracks": 36,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_134254",
+        "n_tracks": 34,
+        "gap_idsw": 0,
+        "swap_idsw": 2,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_134632",
+        "n_tracks": 34,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_140205",
+        "n_tracks": 31,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_140651",
+        "n_tracks": 24,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_141140",
+        "n_tracks": 32,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_141537",
+        "n_tracks": 34,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_141942",
+        "n_tracks": 50,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_142329",
+        "n_tracks": 68,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_142706",
+        "n_tracks": 57,
+        "gap_idsw": 0,
+        "swap_idsw": 1,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_143048",
+        "n_tracks": 57,
+        "gap_idsw": 0,
+        "swap_idsw": 4,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_143426",
+        "n_tracks": 63,
+        "gap_idsw": 0,
+        "swap_idsw": 4,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_143810",
+        "n_tracks": 83,
+        "gap_idsw": 0,
+        "swap_idsw": 7,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_144153",
+        "n_tracks": 51,
+        "gap_idsw": 0,
+        "swap_idsw": 0,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      },
+      {
+        "sequence": "outdoor-scene4-20211007_144525",
+        "n_tracks": 60,
+        "gap_idsw": 0,
+        "swap_idsw": 4,
+        "bridgeable_gap_idsw": 0,
+        "gaps": []
+      }
+    ]
+  }
+]
